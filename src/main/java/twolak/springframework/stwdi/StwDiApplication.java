@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import twolak.springframework.stwdi.controllers.ConstructorInjectedController;
-import twolak.springframework.stwdi.controllers.I18nController;
+import twolak.springframework.stwdi.controllers.GreetingController;
 import twolak.springframework.stwdi.controllers.MyController;
 import twolak.springframework.stwdi.controllers.PropertyInjectedController;
 import twolak.springframework.stwdi.controllers.SetterInjectedController;
@@ -46,9 +46,9 @@ public class StwDiApplication {
 		
 		System.out.println("-----Profiles------");
 		
-		I18nController i18nController = (I18nController) applicationContext.getBean("i18nController");
+		GreetingController greetingController = (GreetingController) applicationContext.getBean("greetingController");
 		
-		System.out.println(i18nController.sayHello());
+		System.out.println(greetingController.sayHello());
 	}
 
 }

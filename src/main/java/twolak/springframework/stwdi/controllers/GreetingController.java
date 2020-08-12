@@ -5,11 +5,11 @@ import org.springframework.stereotype.Controller;
 import twolak.springframework.stwdi.services.GreetingService;
 
 @Controller
-public class I18nController {
+public class GreetingController {
     
     private final GreetingService greetingService;
 
-    public I18nController(GreetingService greetingService) {
+    public GreetingController(GreetingService greetingService) {
 	this.greetingService = greetingService;
     }
     
