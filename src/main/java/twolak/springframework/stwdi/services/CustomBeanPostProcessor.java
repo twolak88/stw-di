@@ -1,4 +1,4 @@
-package twolak.services;
+package twolak.springframework.stwdi.services;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

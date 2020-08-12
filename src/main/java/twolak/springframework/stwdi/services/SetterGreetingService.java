@@ -1,4 +1,4 @@
-package twolak.services;
+package twolak.springframework.stwdi.services;
 
 import org.springframework.stereotype.Service;
 

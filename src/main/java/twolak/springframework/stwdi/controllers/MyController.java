@@ -2,7 +2,7 @@ package twolak.springframework.stwdi.controllers;
 
 import org.springframework.stereotype.Controller;
 
-import twolak.services.GreetingService;
+import twolak.springframework.stwdi.services.GreetingService;
 
 @Controller
 public class MyController {

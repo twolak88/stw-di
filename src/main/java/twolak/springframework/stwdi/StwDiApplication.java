@@ -11,7 +11,7 @@ import twolak.springframework.stwdi.controllers.PropertyInjectedController;
 import twolak.springframework.stwdi.controllers.SetterInjectedController;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"twolak.services", "twolak.springframework"})
+//@ComponentScan(basePackages = {"twolak.services", "twolak.springframework"})
 //@ComponentScan(basePackages = {"twolak"})
 public class StwDiApplication {
 
