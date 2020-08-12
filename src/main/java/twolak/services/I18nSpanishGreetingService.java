@@ -1,15 +1,15 @@
-package twolak.springframework.stwdi.services;
+package twolak.services;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile({"PL"})
+@Profile("ES")
 @Service("i18nService")
-public class I18nPolishGreetingService implements GreetingService{
+public class I18nSpanishGreetingService implements GreetingService{
 
     @Override
     public String sayGreeting() {
-	return "Witaj Świecie - PL";
+	return "Hola Mundo - ES";
     }
 
 }

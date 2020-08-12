@@ -1,4 +1,4 @@
-package twolak.springframework.stwdi.services;
+package twolak.services;
 
 public interface GreetingService {
     String sayGreeting();

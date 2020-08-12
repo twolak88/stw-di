@@ -1,4 +1,4 @@
-package twolak.springframework.stwdi.services;
+package twolak.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

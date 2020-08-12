@@ -7,8 +7,8 @@ import javax.annotation.Generated;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import twolak.springframework.stwdi.services.ConstructorGreetingService;
-import twolak.springframework.stwdi.services.SetterGreetingService;
+import twolak.services.ConstructorGreetingService;
+import twolak.services.SetterGreetingService;
 
 @Generated(value = "org.junit-tools-1.1.0")
 public class SetterInjectedControllerTest {

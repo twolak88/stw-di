@@ -3,7 +3,7 @@ package twolak.springframework.stwdi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-
+import org.springframework.context.annotation.ComponentScan;
 import twolak.springframework.stwdi.controllers.ConstructorInjectedController;
 import twolak.springframework.stwdi.controllers.I18nController;
 import twolak.springframework.stwdi.controllers.MyController;
@@ -11,6 +11,8 @@ import twolak.springframework.stwdi.controllers.PropertyInjectedController;
 import twolak.springframework.stwdi.controllers.SetterInjectedController;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"twolak.services", "twolak.springframework"})
+//@ComponentScan(basePackages = {"twolak"})
 public class StwDiApplication {
 
 	public static void main(String[] args) {

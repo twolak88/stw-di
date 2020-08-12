@@ -3,7 +3,7 @@ package twolak.springframework.stwdi.controllers;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import twolak.springframework.stwdi.services.GreetingService;
+import twolak.services.GreetingService;
 
 @Controller
 public class I18nController {

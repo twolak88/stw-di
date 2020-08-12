@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import twolak.springframework.stwdi.services.ConstructorGreetingService;
-import twolak.springframework.stwdi.services.PropertyGreetingService;
+import twolak.services.ConstructorGreetingService;
+import twolak.services.PropertyGreetingService;
 
 public class PropertyInjectedControllerTest {
 
