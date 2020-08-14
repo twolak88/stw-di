@@ -1,4 +1,4 @@
-package twolak.springframework.stwdi.services;
+package twolak.springframework.stwdi.services.beans;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
