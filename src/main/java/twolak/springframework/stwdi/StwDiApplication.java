@@ -10,6 +10,7 @@ import twolak.springframework.stwdi.controllers.MyController;
 import twolak.springframework.stwdi.controllers.PropertyInjectedController;
 import twolak.springframework.stwdi.controllers.SetterInjectedController;
 import twolak.springframework.stwdi.examplebeans.FakeDataSource;
+import twolak.springframework.stwdi.examplebeans.FakeJmsBroker;
 
 @SpringBootApplication
 //@ComponentScan(basePackages = {"twolak.services", "twolak.springframework"})
@@ -28,6 +29,12 @@ public class StwDiApplication {
 		System.out.println(fakeDataSource.getUser());
 		System.out.println(fakeDataSource.getPassword());
 		System.out.println(fakeDataSource.getUrl());
+		
+		FakeJmsBroker jmsBroker = applicationContext.getBean(FakeJmsBroker.class);
+		
+		System.out.println(jmsBroker.getUsername());
+		System.out.println(jmsBroker.getPassword());
+		System.out.println(jmsBroker.getUrl());
 		
 //		System.out.println(controller.getGreeting());
 //		
